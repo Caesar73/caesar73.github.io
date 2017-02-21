@@ -1,7 +1,7 @@
 # Site settings
 name: Caesar Zhang
-title: Caesar's Blog
-description: "Caesar Zhang's Blog"
+title: Caesar's Site
+description: "Caesar Zhang's Site"
 url:         "https://caesar73.github.io"
 date_format: "%b %-d, %Y"
 email: rayanddoctor@126.com
