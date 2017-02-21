@@ -1,20 +1,13 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
-baseurl:     ""
-url:         "http://pixyll.com"
+name: Caesar Zhang
+title: Caesar's Blog
+description: "Caesar Zhang's Blog"
+url:         "https://caesar73.github.io"
 date_format: "%b %-d, %Y"
+email: rayanddoctor@126.com
+public_key_url: "https://raw.pastebin.com/LINK-TO-PUBLIC-KEY"
+blog_url: "/blog"
 
-# Google services
-google_verification:
-# Use either direct GA implementation or set up GTM account
-# - using both will skew your data (leave blank to not use at all)
-google_analytics:
-google_tag_manager:
-# Bing services
-bing_verification:
 
 # Optional features
 animated:             false
@@ -26,14 +19,11 @@ enable_mathjax: false
 extended_fonts: false
 enable_anchorjs: false
 
+
 # Facebook Page integration
 # (for instant articles and other stuff)
 fb_page: false
-fb_page_id: 
-
-# Disqus post comments
-# (leave blank to disable Disqus)
-disqus_shortname:
+fb_page_id:
 
 # Facebook Comments plugin
 # (leave blank to disable Facebook Comments, otherwise set it to true)
@@ -41,20 +31,37 @@ facebook_comments:
 facebook_appid:
 facebook_comments_number: 10
 
+
 # Social icons
-github_username:
+github_username: Caesar73
 bitbucket_username:
 stackoverflow_id:
-twitter_username:
+codepen_username: your_codepen_username_goes_here
+facebook_username: your_facebook_username_goes_here
+vk_username: your_vk_username_goes_here
+twitter_username: your_twitter_username_goes_here
 skype_username:
 steam_nickname:
 google_plus_id:
-linkedin_username:
+google_plus_username: your_google_plus_username_goes_here
+linkedin_username: your_linked_in_username_goes_here
 angellist_username:
 medium_id:
 bitcoin_url:
 paypal_url:
 flattr_button:
+vine_username:  your_vine_username_goes_here
+instagram_username:  your_instagram_username_goes_here
+flickr_username: your_flickr_username_goes_here
+steam_username: your_steam_username_goes_here
+soundcloud_username:  your_soundcloud_username_goes_here
+stack_of_username: your_stack_overflow_account_id_number_goes_here
+reddit_username: your_reddit_username_goes_here
+medium_username:  your_medium_username_goes_here
+tumblr_username: your_tumblr_username_goes_here
+weibo_username: your_weibo_username_goes_here
+lastfm_username: your_lastfm_username_goes_here
+
 
 # Post sharing icons
 show_sharing_icons: false
@@ -102,6 +109,31 @@ text:
   thanks: 'Thanks for contacting us. We will reply as soon as possible.'
   og_locale: 'en_US'
 
+
+
+avatar: yes
+#avatar_img_path: "imgs/avatar.jpg""
+# You can link to your GitHub image. That way it will get updated
+# automatically whenever you change your GitHub profile picture
+#avatar_img_path: "https://avatars2.githubusercontent.com/u/17301305"
+avatar_img_path: "https://avatars1.githubusercontent.com/u/6374303"
+
+front_img: yes
+front_img_path: "imgs/background.jpg"
+
+background_img_path: "imgs/index/bg.jpg"
+overlay_svg_img_path: "imgs/index/overlay.svg"
+overlay_png_img_path: "imgs/index/overlay-pattern.png"
+
+#front_img_path: "https://external.url/image.jpg"
+
+
+favicon_img: yes
+favicon_img_path: "imgs/favicon.ico"
+#favicon_img_path: "https://external.url/favicon.ico"
+
+
+
 # Build settings
 markdown:     kramdown
 redcarpet:
@@ -115,3 +147,4 @@ gems:
   - jekyll-sitemap
 # https://github.com/jekyll/jekyll/issues/2938
 exclude: [vendor]
+
