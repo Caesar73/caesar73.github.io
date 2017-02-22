@@ -14,11 +14,11 @@ permalink: /
 <link rel="shortcut icon" href="{{ site.favicon_img_path }}" />
 {% endif %}
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="{{ "css/index/index.css" | prepend: site.baseurl }}">
 <!--[if lte IE 8]><link rel="stylesheet" href="{{ "css/index/ie8.css" | prepend: site.baseurl }}" /><![endif]-->
-<!--[if lte IE 9]><link rel="stylesheet" href="{{ "css/index/ie9.css" | prepend: site.baseurl }}" /><![endif]-->
-<!--[if lte IE 8]>
+<!--[if lte IE 9]>
+<link rel="stylesheet" href="{{ "css/index/ie9.css" | prepend: site.baseurl }}" />
 <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
 <script src="//cdn.bootcss.com/html5shiv/r29/html5.min.js"></script>
 <![endif]-->
@@ -40,10 +40,11 @@ permalink: /
             <nav>
                 <ul>
                     <!--  -->
-                    <li><a target="" href="https://github.com/Caesar73/blog/" class="icon fa fa-th-list"><span class="label">进入</span></a></li>
-                    <li><a target="_blank" href="https://github.com/Caesar73/blog/" class="icon fa fa-group"><span class="label">Facebook</span></a></li>
-                    <li><a target="_blank" href="http://www.vk.com/Caesar73" class="icon fa fa-vk"><span class="label">VK</span></a></li>
-                    <li><a target="_blank" href="https://github.com/Caesar73" class="icon fa-github"><span class="label">Github</span></a></li>
+                    <li><a target="" href="https://caesar73.github.io/cv/" class="icon fa fa-address-card-o"><span class="label">CV</span></a></li>
+                    <li><a target="" href="https://caesar73.github.io/blog/" class="icon fa fa-book"><span class="label">Blog</span></a></li>
+                    <li><a target="" href="https://caesar73.github.io/alina/" class="icon fa fa-code"><span class="label">Alina</span></a></li>
+                    <li><a target="" href="http://www.vk.com/Caesar73" class="icon fa fa-vk"><span class="label">VK</span></a></li>
+                    <li><a target="" href="https://github.com/Caesar73" class="icon fa-github"><span class="label">Github</span></a></li>
                     <li><a target="" href="mailto:rayanddoctor@126.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
                 </ul>
             </nav>
@@ -52,12 +53,14 @@ permalink: /
         <!-- Footer -->
         <footer id="footer">
             <span class="copyright">&copy; China. Design: <a href="http://www.zhangjiayi.net">Caesar</a>.</span>
+            <span class="copyright">E-mail: rayanddoctor@126.com</span>
         </footer>
 
     </div>
 </div>
 
 <!--
+  &nbsp;&nbsp;&nbsp;&nbsp;
         <div class="content">
             {% if site.front_img %}
             <img src="{{ site.front_img_path }}" id="fullscreen">
